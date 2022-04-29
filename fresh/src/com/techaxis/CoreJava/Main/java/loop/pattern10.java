@@ -7,7 +7,7 @@ public class pattern10 {
             for (int j = 1; j < 7-i; j++) {
                 System.out.print(" ");
             }
-            for(int k=5;k>=1;k--){
+            for(int k=1;k<=i;k++){
                 System.out.print(c+" ");
                 c--;
             }
