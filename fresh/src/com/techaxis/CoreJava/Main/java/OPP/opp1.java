@@ -1,14 +1,14 @@
 package com.techaxis.CoreJava.Main.java.OPP;
 
 import java.util.Scanner;
-class product{
+class Product{
     private double pid;
     private   String pname;
     private double cost;
-    public product(){
+    public Product(){
 
     }
-    public void setdata(){
+    public void Setdata(){
         System.out.println("enter product id");
         Scanner s=new Scanner(System.in);
         pid=s.nextDouble();
@@ -18,7 +18,7 @@ class product{
         cost=s.nextDouble();
 
     }
-    public void showdata(){
+    public void Showdata(){
         System.out.println("product id: "+pid);
         System.out.println("product name: "+pname);
         System.out.println("product cost: "+cost);
@@ -28,9 +28,9 @@ class product{
 public class opp1 {
 
     public static void main(String[] args) {
-        product p=new product();
-        p.setdata();
-        p.showdata();
+        Product p=new Product();
+        p.Setdata();
+        p.Showdata();
     }
 
 }
