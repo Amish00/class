@@ -2,7 +2,7 @@ package com.techaxis.CoreJava.Main.java.OPP.Inheritance;
 
 public class Main {
     public static void main(String[] args) {
-//        Person p=new Person("hari",15,"patan");
+//        Person p=new Person("hari",15,"patan");    //Students
 //        System.out.println(p);
 //        Students s=new Students();
 //        System.out.println(s);
@@ -13,13 +13,13 @@ public class Main {
 //        Teacher teacher=new Teacher();
 //        System.out.println(teacher);
 
-//        Employee employee=new Employee(1,"omkar",520000);
+//     Employee employee=new Employee(1,"omkar",520000);         Employee
 //        System.out.println(employee);
 Employee employee=new Employee(1,"omkar",520000);
         employee.showinfo();
         Programmer programmer=new Programmer(1,"tom",521200000,"English",596.325);
         System.out.println(programmer);
-    }
+   }
 
 
 }
